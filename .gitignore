@@ -1,0 +1,15 @@
+.DS_Store
+*.code-workspace
+
+# secrets: demo keypairs never go to git
+.keys/
+
+# build / tooling output
+target/
+test-ledger/
+.anchor/
+node_modules/
+dist/
+.venv/
+__pycache__/
+.pytest_cache/

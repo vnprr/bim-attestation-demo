@@ -1,0 +1,4 @@
+# Hashed files are contracts: their exact bytes must be identical on every OS.
+# -text = git never converts line endings (no CRLF on Windows), diffs stay readable.
+*.ids -text
+*.ifc -text
